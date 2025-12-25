@@ -13,6 +13,7 @@ export default function Portfolio() {
           <div className="flex gap-4 md:gap-6 text-sm font-medium items-center">
             <a href="mailto:chaitalip14@gmail.com" className="hover:text-blue-400 transition hidden md:block">Email</a>
             <a href="https://www.linkedin.com/in/chaitali-patel-full-stack-developer-712aaa9a/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition hidden md:block">LinkedIn</a>
+            <a href="https://github.com/sitsiya" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition hidden md:block">Github</a>
             {/* Secondary Download Button in Nav */}
             <a 
               href="/CHAITALI-Resume-2025.pdf" 
