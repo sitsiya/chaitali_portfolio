@@ -83,19 +83,19 @@ export default function Portfolio() {
             <div className="p-6 rounded-2xl bg-slate-800/30 border border-slate-800">
               <h3 className="text-blue-400 font-bold mb-4 flex items-center gap-2 text-lg"><Smartphone size={20}/> Mobile</h3>
               <div className="flex flex-wrap gap-2 text-sm text-slate-400">
-                {['iOS (Swift)', 'Android (Java)', 'React Native', '.NET MAUI'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
+                {['iOS (Swift)', 'Android (Java, Kotlin)', 'React Native', '.NET MAUI'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
               </div>
             </div>
             <div className="p-6 rounded-2xl bg-slate-800/30 border border-slate-800">
               <h3 className="text-blue-400 font-bold mb-4 flex items-center gap-2 text-lg"><Globe size={20}/> Web</h3>
               <div className="flex flex-wrap gap-2 text-sm text-slate-400">
-                {['Angular', 'TypeScript', 'Node.js', 'PHP', 'HTML5/CSS3'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
+                {['Angular', 'TypeScript', 'Node.js', 'PHP', 'HTML5/CSS3', 'TailwandCSS'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
               </div>
             </div>
             <div className="p-6 rounded-2xl bg-slate-800/30 border border-slate-800">
               <h3 className="text-blue-400 font-bold mb-4 flex items-center gap-2 text-lg"><Server size={20}/> Infrastructure</h3>
               <div className="flex flex-wrap gap-2 text-sm text-slate-400">
-                {['AWS (Cognito/S3)', 'Firebase', 'MySQL', 'SIP Trunking'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
+                {['AWS (Cognito/S3/Lamda)', 'Firebase', 'MySQL','NoSQL', 'SIP Trunking'].map(t => <span key={t} className="bg-slate-900 px-3 py-1 rounded-md border border-slate-700">{t}</span>)}
               </div>
             </div>
           </div>
