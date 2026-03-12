@@ -16,7 +16,7 @@ export default function Portfolio() {
             <a href="https://github.com/sitsiya" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition hidden md:block">Github</a>
             {/* Secondary Download Button in Nav */}
             <a 
-              href="/CHAITALI-Resume-2025.pdf" 
+              href="/CHAITALI_Resume_2026.pdf" 
               download 
               className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-3 py-1.5 rounded-lg border border-slate-700 transition text-xs"
             >
