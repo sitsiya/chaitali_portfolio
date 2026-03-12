@@ -44,7 +44,7 @@ export default function Portfolio() {
           {/* MAIN DOWNLOAD BUTTON */}
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <a 
-              href="/CHAITALI-Resume-2025.pdf" 
+              href="/CHAITALI_Resume_2026.pdf" 
               download
               className="flex items-center gap-3 bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-2xl font-bold text-lg transition shadow-lg shadow-blue-500/20 group"
             >
@@ -57,7 +57,7 @@ export default function Portfolio() {
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <div className="flex items-center gap-2 bg-slate-800/50 px-4 py-2 rounded-lg border border-slate-700">
               <MapPin size={16} className="text-blue-400" />
-              Red Deer, AB (Relocating across Alberta)
+              Calgary, AB
             </div>
           </div>
         </section>
